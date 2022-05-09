@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import {parseTimeToSeconds} from '../../index.js';
+import {NomFonction} from '../../index.js';
 
 describe('index.js', () => {
     describe('#NomFonction', () => {
@@ -13,3 +13,4 @@ describe('index.js', () => {
         });
     });
 });
+
