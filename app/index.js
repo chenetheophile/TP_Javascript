@@ -65,16 +65,16 @@ console.log(tableauObservationEquilibre());
 console.log(tableauObservationReel());
 console.log(testEquilibre);
 
-const getPoint=[1,0,2,1];
+const getPoint = [1, 0, 2, 1];
 
 const PrincipalComponentAnalysis = new PCA.PCA(dataset.getNumbers());
-const prediction=PrincipalComponentAnalysis.predict([getPoint]).to1DArray();
-const CumulativeVariance=PrincipalComponentAnalysis.getCumulativeVariance();
-const EingenValues =PrincipalComponentAnalysis.getEigenvalues();
-const EingenVectors =PrincipalComponentAnalysis.getEigenvectors();
-const getExplainedVariance=PrincipalComponentAnalysis.getExplainedVariance();
-const getLoadings=PrincipalComponentAnalysis.getLoadings();
-const getStandardDeviations=PrincipalComponentAnalysis.getStandardDeviations();
+const prediction = PrincipalComponentAnalysis.predict([getPoint]).to1DArray();
+const CumulativeVariance = PrincipalComponentAnalysis.getCumulativeVariance();
+const EingenValues = PrincipalComponentAnalysis.getEigenvalues();
+const EingenVectors = PrincipalComponentAnalysis.getEigenvectors();
+const getExplainedVariance = PrincipalComponentAnalysis.getExplainedVariance();
+const getLoadings = PrincipalComponentAnalysis.getLoadings();
+const getStandardDeviations = PrincipalComponentAnalysis.getStandardDeviations();
 
 console.log(PrincipalComponentAnalysis);
 console.log(prediction);
