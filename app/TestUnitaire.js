@@ -1,15 +1,14 @@
 import {expect} from 'chai';
-import {NomFonction} from '../../index.js';
+import {testEquilibre} from '../../khi2.js';
 
 describe('index.js', () => {
-    describe('#NomFonction', () => {
+    describe('#testEquilibre', () => {
         it('Ce que cela doit retourner', () => {
-            expect(NomFonction('TrucAtester')).to.be.equal(CeAquoiCaDoitEtreEgale);
+            expect(testEquilibre).to.be.equal(Array);
         });
 
         it('Doit retourner une erreur', () => {
-            expect(NomFonction('non')).to.be.equal(Number.NaN);
-            expect(NomFonction('')).to.be.equal(Number.NaN);
+            expect(testEquilibre('non')).to.be.equal(TypeError);
         });
     });
 });
