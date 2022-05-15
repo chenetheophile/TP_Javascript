@@ -10,7 +10,7 @@ CRONIER Clément
 # Pour la partie relative au PCA :
 Accès à toutes les fonctions du PCA via le fichier pca.js
 
-# Pour la partie relative au biais (Application du khi2)
+# Pour la partie relative au biais (Application du khi2) :
 Accès a la fonction testEquilibre du fichier khi2.js
 
 # Pour changer de dasaset initial :
