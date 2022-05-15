@@ -16,6 +16,12 @@ Accès a la fonction testEquilibre du fichier khi2.js
 # Pour changer de dasaset initial :
 Changement du path via la fichier common.js
 
+# Libraries :
 
+Ramda: https://ramdajs.com
+
+Gulp: https://gulpjs.com
+
+Node and npm: https://nodejs.org/
 
 
