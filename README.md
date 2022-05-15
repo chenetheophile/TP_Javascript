@@ -11,7 +11,7 @@ CRONIER Clément
 Accès à toutes les fonctions du PCA via le fichier pca.js
 
 # Pour la partie relative au biais (Application du khi2) :
-Accès a la fonction testEquilibre du fichier khi2.js
+Accès à la fonction testEquilibre du fichier khi2.js
 
 # Pour changer de dasaset initial :
 Changement du dataset via la variable "Path" du fichier common.js
