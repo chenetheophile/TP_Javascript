@@ -14,7 +14,7 @@ Accès à toutes les fonctions du PCA via le fichier pca.js
 Accès a la fonction testEquilibre du fichier khi2.js
 
 # Pour changer de dasaset initial :
-Changement du path via la fichier common.js
+Changement du dataset via la variable "path" du fichier common.js
 
 # Libraries :
 
